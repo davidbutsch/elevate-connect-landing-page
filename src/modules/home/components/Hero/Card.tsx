@@ -55,7 +55,7 @@ export const Card = (props: CardProps) => {
             <Stack spacing={1}>
               <Typography>{text}</Typography>
               <Link component="button" onClick={handleSeeLessClick}>
-                see less..
+                see less
               </Link>
               <Link component="button" onClick={handleContactClick}>
                 Contact Us

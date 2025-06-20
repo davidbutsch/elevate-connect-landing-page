@@ -1,6 +1,7 @@
 import { HERO_IMAGE_URL } from "@/common";
 import { Box, Container, styled } from "@mui/material";
 import { Cards } from "./Cards";
+import { ForPartners } from "./ForPartners";
 import { HeroTypography } from "./HeroTypography";
 
 const HeroContainer = styled(Container)({
@@ -47,6 +48,7 @@ export const Hero = () => {
         <HeroTypography />
       </HeroImage>
       <Cards />
+      <ForPartners />
     </HeroContainer>
   );
 };
